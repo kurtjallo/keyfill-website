@@ -34,7 +34,7 @@ export function HowItWorks() {
         <ol className="grid grid-cols-1 md:grid-cols-3 gap-px bg-hairline border border-hairline list-none">
           {steps.map((step) => (
             <li key={step.number} className="bg-paper p-8 lg:p-10">
-              <div className="font-mono text-[11px] text-muted uppercase tracking-[0.08em] mb-5">
+              <div className="font-mono text-[11px] text-muted tracking-[0.08em] mb-5">
                 {step.number}
               </div>
               <h3 className="font-display italic text-ink-deep text-[24px] leading-[1.2] tracking-[-0.005em] mb-3">

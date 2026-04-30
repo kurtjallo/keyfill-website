@@ -22,13 +22,13 @@ export function Hero() {
               </em>
             </h1>
 
-            <p className="text-[19px] leading-[1.5] text-ink mb-10 max-w-[520px] border-l-2 border-ink pl-[18px]">
+            <p className="text-[19px] leading-[1.5] text-ink mb-10 max-w-[520px] border-l border-ink pl-[18px]">
               Two filled OREA-form PDFs in your inbox in ninety seconds.
               Skyslope handles the signatures from there.
             </p>
 
             <div
-              className="font-mono text-[12.5px] leading-[1.7] text-muted py-4 px-[18px] bg-onion border border-hairline max-w-[540px] tracking-[-0.005em]"
+              className="font-mono text-[12.5px] leading-[1.7] text-muted py-4 px-[18px] bg-onion border border-hairline max-w-[540px]"
               aria-label="Process: voice to thirteen extracted fields to two filled forms emailed in one minute thirty-two seconds"
             >
               <span className="text-ink">voice</span>{" "}
