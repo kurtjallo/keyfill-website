@@ -1,0 +1,41 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Turbo (just in case)
+.turbo/
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+
+# Claude Code local state
+.claude/
+
+# typescript
+*.tsbuildinfo
+
+# Obsidian vault — raw sources may contain PII (call transcripts,
+# voice notes, license images). Wiki/ + schema are tracked; raw/
+# contents are local-only. The dir itself is tracked via raw/.gitignore.
+keyfill-vault/raw/*
+!keyfill-vault/raw/.gitignore
+keyfill-vault/.obsidian/

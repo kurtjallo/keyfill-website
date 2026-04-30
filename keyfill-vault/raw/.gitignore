@@ -1,0 +1,4 @@
+# Track this directory but ignore everything in it.
+# Contents may include PII (call transcripts, voice notes, license images).
+*
+!.gitignore
