@@ -26,9 +26,11 @@ export function Problem() {
               </em>{" "}
               problem is what eats the night.
             </p>
-            <h2 className="font-display italic text-[clamp(22px,2.2vw,28px)] leading-[1.35] tracking-[-0.005em] text-ink-deep pt-2">
-              That&apos;s the wedge — the part nobody got out of the way.
-            </h2>
+            <blockquote className="pt-6 mt-2 border-t border-hairline">
+              <h2 className="font-display italic text-[clamp(24px,2.8vw,34px)] leading-[1.3] tracking-[-0.01em] text-ink-deep max-w-[600px]">
+                That&apos;s the wedge — the part nobody got out of the way.
+              </h2>
+            </blockquote>
           </div>
         </div>
       </div>
