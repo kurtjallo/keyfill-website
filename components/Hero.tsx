@@ -32,12 +32,12 @@ export function Hero() {
               aria-label="Process: voice to thirteen extracted fields to two filled forms emailed in one minute thirty-two seconds"
             >
               <span className="text-ink">voice</span>{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               13 fields extracted{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               <span className="text-ink">form 2229E</span> +{" "}
               <span className="text-ink">OREA 400</span>{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               emailed in <span className="text-ink">1:32</span>
             </div>
           </div>

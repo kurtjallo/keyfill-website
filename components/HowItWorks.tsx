@@ -37,7 +37,7 @@ export function HowItWorks() {
               <div className="font-mono text-[11px] text-muted uppercase tracking-[0.08em] mb-5">
                 {step.number}
               </div>
-              <h3 className="font-display italic text-accent text-[24px] leading-[1.2] tracking-[-0.005em] mb-3">
+              <h3 className="font-display italic text-ink-deep text-[24px] leading-[1.2] tracking-[-0.005em] mb-3">
                 {step.title}
               </h3>
               <p className="text-[15.5px] leading-[1.55] text-ink">

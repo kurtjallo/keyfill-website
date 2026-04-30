@@ -19,7 +19,7 @@ export function Problem() {
             <p className="text-[18px] leading-[1.65] text-ink">
               The signing problem is solved; DocuSign, Skyslope, and Dotloop
               all handle that. The{" "}
-              <em className="font-display text-accent italic text-[20px]">
+              <em className="font-display italic text-ink-deep text-[20px]">
                 filling
               </em>{" "}
               problem is what eats the night.
