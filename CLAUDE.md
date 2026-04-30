@@ -121,9 +121,9 @@ Key routing rules:
 
 ## Web stack
 
-- **Framework**: Next.js 15 with App Router; TypeScript strict.
-- **Styling**: Tailwind CSS.
-- **Output**: static export (`output: 'export'` in `next.config.js`) — no SSR needs for a marketing site.
+- **Framework**: Next.js 16 with App Router; TypeScript strict.
+- **Styling**: Tailwind CSS v4 (CSS-first config via `@import "tailwindcss"` + `@theme` blocks; no `tailwind.config.ts`).
+- **Output**: static export (`output: 'export'` in `next.config.ts`) — no SSR needs for a marketing site.
 - **Deploy target**: Vercel.
 - **Brand assets**: source of truth lives in the mobile-app repo at `/Users/kurt/Desktop/Keyfill/keyfill-app/Brand Assets/Logo/`. Copies live in `public/` here. Don't modify the source SVGs from this repo — copy them in.
 - **Second brain**: `keyfill-vault/` (Obsidian, LLM-maintained per `keyfill-vault/CLAUDE.md`).
@@ -133,4 +133,5 @@ Key routing rules:
 
 Append one line per commit (`- YYYY-MM-DD — <summary>`). Newest at the top.
 
+- 2026-04-29 — Scaffolded Next.js 16 app (App Router, TypeScript strict, Tailwind v4, static export). Brand wordmark + icon SVGs in `public/`; favicon from app-icon-light PNG. Placeholder landing renders wordmark + tagline + "Coming soon."; Geist font kept as a placeholder. Design system + real landing copy land in the next pass via `/design-consultation`.
 - 2026-04-29 — Bootstrapped from keyfill-app conventions (CLAUDE.md, SKILLS.md, vault).
