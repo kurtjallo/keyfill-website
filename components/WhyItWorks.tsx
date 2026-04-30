@@ -30,7 +30,7 @@ export function WhyItWorks() {
           >
             — Why it works
           </div>
-          <h2 className="font-display text-[clamp(28px,3.5vw,40px)] leading-[1.18] tracking-[-0.015em] text-ink-deep max-w-[700px]">
+          <h2 className="font-display text-[clamp(22px,2.6vw,30px)] leading-[1.25] tracking-[-0.01em] text-ink-deep max-w-[680px]">
             Three things that make the difference.
           </h2>
         </div>
@@ -40,7 +40,7 @@ export function WhyItWorks() {
               <div className="font-mono text-[10.5px] text-muted uppercase tracking-[0.08em] mb-4 pb-3 border-b border-hairline">
                 {r.label}
               </div>
-              <h3 className="font-display text-ink-deep text-[24px] leading-[1.18] tracking-[-0.01em] mb-4">
+              <h3 className="font-sans font-semibold text-ink-deep text-[19px] leading-[1.3] tracking-[-0.01em] mb-3">
                 {r.title}
               </h3>
               <p className="text-[15.5px] leading-[1.6] text-ink">{r.body}</p>

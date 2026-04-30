@@ -27,7 +27,7 @@ export function HowItWorks() {
           >
             — How it works
           </div>
-          <h2 className="font-display text-[clamp(28px,3.5vw,40px)] leading-[1.18] tracking-[-0.015em] text-ink-deep max-w-[700px]">
+          <h2 className="font-sans font-semibold text-[clamp(26px,3.2vw,36px)] leading-[1.15] tracking-[-0.02em] text-ink-deep max-w-[700px]">
             Three steps. Then your evening is yours.
           </h2>
         </div>
