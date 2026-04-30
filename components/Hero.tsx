@@ -55,7 +55,7 @@ function DealPacket() {
       <FormCard
         title="Residential Lease"
         formId="FORM 2229E"
-        rotation="-1.5deg"
+        rotation="-0.8deg"
         zIndex={1}
         offsetTop={0}
         offsetLeft={0}
@@ -70,7 +70,7 @@ function DealPacket() {
       <FormCard
         title="Agreement to Lease"
         formId="OREA FORM 400"
-        rotation="1.2deg"
+        rotation="0.5deg"
         zIndex={2}
         offsetTop={28}
         offsetLeft={32}
