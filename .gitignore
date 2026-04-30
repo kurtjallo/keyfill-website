@@ -39,3 +39,4 @@ yarn-error.*
 keyfill-vault/raw/*
 !keyfill-vault/raw/.gitignore
 keyfill-vault/.obsidian/
+.gstack/
