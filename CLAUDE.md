@@ -129,9 +129,20 @@ Key routing rules:
 - **Second brain**: `keyfill-vault/` (Obsidian, LLM-maintained per `keyfill-vault/CLAUDE.md`).
 - **Goal anchor (v1)**: prove "we exist + working product" + capture interest (email signup, "talk to us"). NOT a fundraise page (per session 2026-04-29). Keep copy product-forward; investors served implicitly by the same content (parallel-fill thesis, privacy proxy, north-star quote).
 
+## Design System
+
+Always read `DESIGN.md` before making any visual or UI decisions. All
+font choices, color tokens, spacing, layout posture, and aesthetic
+direction (Ledger Modernism — editorial / paper-document) are defined
+there. Do not deviate without explicit user approval. In `/design-review`
+or `/qa` mode, flag any code that doesn't match `DESIGN.md`. Working
+preview at `.context/keyfill-design-preview.html` (gitignored — local
+artifact for the next build phase).
+
 ## Changelog
 
 Append one line per commit (`- YYYY-MM-DD — <summary>`). Newest at the top.
 
+- 2026-04-29 — Locked design system via `/design-consultation` → `DESIGN.md`. Direction: **Ledger Modernism** (editorial / paper-document — 1970s Ontario law-office filing cabinet, reissued by a Swiss type foundry). Type: Instrument Serif (display) + Geist (body) + JetBrains Mono (data). Color: brand cream + ink + onion-skin surface + sepia hairlines + muted captions + burnt sienna accent (`#8B5A2B`). Layout: split-asymmetric editorial 58/42 hero with stopwatch + deal-packet. CLAUDE.md `## Design System` now points here.
 - 2026-04-29 — Scaffolded Next.js 16 app (App Router, TypeScript strict, Tailwind v4, static export). Brand wordmark + icon SVGs in `public/`; favicon from app-icon-light PNG. Placeholder landing renders wordmark + tagline + "Coming soon."; Geist font kept as a placeholder. Design system + real landing copy land in the next pass via `/design-consultation`.
 - 2026-04-29 — Bootstrapped from keyfill-app conventions (CLAUDE.md, SKILLS.md, vault).
