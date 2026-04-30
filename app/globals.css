@@ -48,7 +48,16 @@ body {
   font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.55;
-  transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* Theme transition: fade chrome surfaces + hairlines + accent fills
+   together with the body so the toggle doesn't reveal layered swap
+   timing. Reduced-motion gate below zeros these out. */
+body,
+header, footer, section, article,
+input, button, a {
+  transition: background-color 200ms ease, border-color 200ms ease,
+    color 200ms ease, outline-color 200ms ease;
 }
 
 /* Visible keyboard focus, never on mouse click */
