@@ -24,9 +24,9 @@ export function Problem() {
               </em>{" "}
               problem is what eats the night.
             </p>
-            <p className="font-display italic text-[clamp(22px,2.2vw,28px)] leading-[1.35] tracking-[-0.005em] text-ink-deep pt-2">
+            <h2 className="font-display italic text-[clamp(22px,2.2vw,28px)] leading-[1.35] tracking-[-0.005em] text-ink-deep pt-2">
               That&apos;s the wedge — the part nobody got out of the way.
-            </p>
+            </h2>
           </div>
         </div>
       </div>

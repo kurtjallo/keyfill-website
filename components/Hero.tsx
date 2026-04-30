@@ -51,11 +51,7 @@ export function Hero() {
 
 function DealPacket() {
   return (
-    <div
-      className="relative min-h-[540px]"
-      aria-hidden="true"
-      role="presentation"
-    >
+    <div className="relative min-h-[540px]">
       <FormCard
         title="Residential Lease"
         formId="FORM 2229E"
@@ -115,6 +111,7 @@ function FormCard({
 }) {
   return (
     <article
+      aria-hidden="true"
       className="absolute w-[92%] bg-onion border border-sepia px-[22px] pt-6 pb-7"
       style={{
         top: `${offsetTop}px`,
