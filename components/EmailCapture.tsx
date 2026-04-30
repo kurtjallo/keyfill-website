@@ -68,7 +68,7 @@ export function EmailCapture() {
           className="font-mono text-[11px] uppercase tracking-[0.04em] text-muted"
           role="status"
         >
-          Thanks — finish the send in your mail client.
+          Check your mail client to finish.
         </p>
       )}
     </form>

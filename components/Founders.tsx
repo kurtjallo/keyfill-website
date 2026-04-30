@@ -14,7 +14,7 @@ export function Founders() {
           </div>
           <div className="max-w-[760px]">
             <h2 className="font-display italic text-[clamp(26px,3vw,34px)] leading-[1.2] tracking-[-0.01em] text-ink-deep mb-12">
-              Built by two people who watched the pain.
+              Two people who watched the pain.
             </h2>
             <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
               <div>
@@ -38,8 +38,8 @@ export function Founders() {
                 </dd>
                 <dd className="text-[15.5px] leading-[1.6] text-ink">
                   Real estate background. Came up with the parallel-fill
-                  thesis and the privacy-proxy architecture that keeps client
-                  data out of the LLM.
+                  thesis and the privacy proxy that keeps client data out
+                  of the LLM.
                 </dd>
               </div>
             </dl>

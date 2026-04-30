@@ -16,8 +16,8 @@ export function CTA() {
               Get your evenings back.
             </h2>
             <p className="text-[17px] leading-[1.5] text-ink mb-10 max-w-[520px]">
-              We&apos;re onboarding Ontario rental agents now. Investors and
-              press, same form — we&apos;ll know which one you are.
+              Onboarding Ontario rental agents now. Investors and press,
+              same form — we&apos;ll know which one you are.
             </p>
             <EmailCapture />
             <a
