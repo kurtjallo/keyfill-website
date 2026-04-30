@@ -10,7 +10,9 @@ export function Founders() {
             id="founders-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — Founders
+            <span className="text-ink">04</span>
+            <span className="mx-2 text-hairline">/</span>
+            Founders
           </div>
           <div className="max-w-[760px]">
             <h2 className="font-display italic text-[clamp(26px,3vw,34px)] leading-[1.2] tracking-[-0.01em] text-ink-deep mb-12">

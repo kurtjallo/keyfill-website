@@ -28,7 +28,9 @@ export function WhyItWorks() {
             id="why-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — Why it works
+            <span className="text-ink">03</span>
+            <span className="mx-2 text-hairline">/</span>
+            Why it works
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

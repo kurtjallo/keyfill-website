@@ -7,7 +7,9 @@ export function Problem() {
             id="problem-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — The wedge
+            <span className="text-ink">01</span>
+            <span className="mx-2 text-hairline">/</span>
+            The wedge
           </div>
           <div className="max-w-[640px] space-y-5">
             <p className="text-[18px] leading-[1.65] text-ink">
@@ -24,9 +26,11 @@ export function Problem() {
               </em>{" "}
               problem is what eats the night.
             </p>
-            <h2 className="font-display italic text-[clamp(22px,2.2vw,28px)] leading-[1.35] tracking-[-0.005em] text-ink-deep pt-2">
-              That&apos;s the wedge — the part nobody got out of the way.
-            </h2>
+            <blockquote className="pt-6 mt-2 border-t border-hairline">
+              <h2 className="font-display italic text-[clamp(24px,2.8vw,34px)] leading-[1.3] tracking-[-0.01em] text-ink-deep max-w-[600px]">
+                That&apos;s the wedge — the part nobody got out of the way.
+              </h2>
+            </blockquote>
           </div>
         </div>
       </div>

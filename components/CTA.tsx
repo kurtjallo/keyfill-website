@@ -9,7 +9,9 @@ export function CTA() {
             id="cta-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — Get involved
+            <span className="text-ink">05</span>
+            <span className="mx-2 text-hairline">/</span>
+            Get involved
           </div>
           <div className="max-w-[640px]">
             <h2 className="font-display italic text-accent text-[clamp(36px,4.5vw,52px)] leading-[1.1] tracking-[-0.015em] mb-6">
@@ -20,15 +22,17 @@ export function CTA() {
               same form — we&apos;ll know which one you are.
             </p>
             <EmailCapture />
-            <a
-              href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
-              className="group inline-flex items-center mt-6 min-h-[44px] font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
-            >
-              Or talk to the founders{" "}
-              <span className="inline-block ml-1 transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
-                →
-              </span>
-            </a>
+            <div className="mt-8 pt-6 border-t border-hairline">
+              <a
+                href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
+                className="group inline-flex items-center min-h-[44px] font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              >
+                Or talk to the founders{" "}
+                <span className="inline-block ml-1 transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
+                  →
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
