@@ -49,9 +49,10 @@ export function EmailCapture() {
         />
         <button
           type="submit"
-          className="bg-accent text-paper border-0 px-[18px] py-[14px] md:py-0 font-sans font-medium text-[13px] cursor-pointer hover:bg-ink transition-colors min-h-[44px] md:min-h-0"
+          disabled={state === "submitted"}
+          className="bg-accent text-paper border-0 px-[18px] py-[14px] md:py-0 font-sans font-medium text-[13px] cursor-pointer hover:bg-ink transition-colors min-h-[44px] md:min-h-0 disabled:cursor-default disabled:bg-ink"
         >
-          Get early access
+          {state === "submitted" ? "Sent →" : "Get early access"}
         </button>
       </div>
       {state === "error" && (
