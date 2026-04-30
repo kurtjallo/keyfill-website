@@ -35,7 +35,7 @@ export function ThemeToggle() {
       onClick={toggle}
       suppressHydrationWarning
       aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
-      className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink border border-hairline px-3 py-[6px] cursor-pointer transition-colors hover:bg-onion focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+      className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink border border-hairline px-3 min-h-[44px] inline-flex items-center cursor-pointer transition-colors hover:bg-onion hover:border-ink focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
     >
       {label}
     </button>

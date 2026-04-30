@@ -45,13 +45,14 @@ export function EmailCapture() {
           placeholder="you@brokerage.com"
           aria-invalid={state === "error"}
           aria-describedby={state === "error" ? "email-error" : undefined}
-          className="flex-1 min-w-0 bg-transparent border-0 px-[14px] py-[14px] md:py-[11px] font-sans text-[14px] text-ink outline-none placeholder:text-muted"
+          className="flex-1 min-w-0 bg-transparent border-0 border-b-2 border-b-transparent focus:border-b-accent transition-colors duration-150 px-[14px] py-[12px] md:py-[9px] font-sans text-[14px] text-ink outline-none placeholder:text-muted"
         />
         <button
           type="submit"
-          className="bg-ink text-paper border-0 px-[18px] py-[14px] md:py-0 font-sans font-medium text-[13px] cursor-pointer hover:bg-accent transition-colors min-h-[44px] md:min-h-0"
+          disabled={state === "submitted"}
+          className="bg-accent text-paper border-0 px-[18px] py-[14px] md:py-0 font-sans font-medium text-[13px] cursor-pointer hover:bg-ink transition-colors min-h-[44px] md:min-h-0 disabled:cursor-default disabled:bg-ink"
         >
-          Get early access
+          {state === "submitted" ? "Sent →" : "Get early access"}
         </button>
       </div>
       {state === "error" && (
@@ -68,7 +69,7 @@ export function EmailCapture() {
           className="font-mono text-[11px] uppercase tracking-[0.04em] text-muted"
           role="status"
         >
-          Thanks — finish the send in your mail client.
+          Check your mail client to finish.
         </p>
       )}
     </form>

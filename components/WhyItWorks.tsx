@@ -2,7 +2,7 @@ const reasons = [
   {
     label: "Parallel-fill thesis",
     title: "Fill once, fill everything",
-    body: "Extraction is the expensive part. Once we have your thirteen fields, filling Form 2229E and OREA 400 in parallel costs nothing extra. So we fill all of them and let you pick at the tile.",
+    body: "Extraction is the expensive part. Once we've got the thirteen fields, filling Form 2229E and OREA 400 costs nothing extra. So we fill both. You pick at the tile.",
   },
   {
     label: "Privacy proxy",
@@ -22,17 +22,14 @@ export function WhyItWorks() {
       className="border-b border-hairline bg-onion"
       aria-labelledby="why-label"
     >
-      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20">
-        <div className="grid grid-cols-1 min-[920px]:grid-cols-[180px_1fr] gap-8 min-[920px]:gap-16 mb-12">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20 md:py-32">
+        <div className="mb-12">
           <div
             id="why-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
             — Why it works
           </div>
-          <h2 className="font-display text-[clamp(28px,3.5vw,40px)] leading-[1.18] tracking-[-0.015em] text-ink-deep max-w-[700px]">
-            Three things that make the difference.
-          </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {reasons.map((r) => (
@@ -40,7 +37,7 @@ export function WhyItWorks() {
               <div className="font-mono text-[10.5px] text-muted uppercase tracking-[0.08em] mb-4 pb-3 border-b border-hairline">
                 {r.label}
               </div>
-              <h3 className="font-display text-ink-deep text-[24px] leading-[1.18] tracking-[-0.01em] mb-4">
+              <h3 className="font-sans font-semibold text-ink-deep text-[19px] leading-[1.3] tracking-[-0.01em] mb-3">
                 {r.title}
               </h3>
               <p className="text-[15.5px] leading-[1.6] text-ink">{r.body}</p>

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const TARGET_SECONDS = 92; // 1:32
-const DURATION_MS = 3000;
+const DURATION_MS = 3800;
 const START_DELAY_MS = 600;
 
 function fmt(seconds: number): string {
@@ -37,7 +37,11 @@ export function Stopwatch() {
         return;
       }
       const t = Math.min((now - start) / DURATION_MS, 1);
-      const eased = 1 - Math.pow(1 - t, 2.4);
+      // Near-linear with a soft 12% landing — real stopwatches tick
+      // linearly, but we soften the last fraction so the digits don't
+      // hammer to a halt on the final frame.
+      const eased =
+        t < 0.88 ? t : 0.88 + (1 - Math.pow(1 - (t - 0.88) / 0.12, 2)) * 0.12;
       setDisplay(fmt(TARGET_SECONDS * eased));
       if (t < 1) raf = requestAnimationFrame(step);
     };

@@ -15,19 +15,22 @@ export function Footer() {
             Built in Toronto
             <br />© 2026 Keyfill
           </div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.04em] leading-[1.7] md:text-right">
+          <div className="font-mono text-[11px] uppercase tracking-[0.04em] md:text-right">
             <a
               href="mailto:hello@keyfill.app"
-              className="text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="inline-block py-2 text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
               hello@keyfill.app
             </a>
             <br />
             <a
               href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
-              className="text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="group inline-block py-2 text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
-              Talk to us →
+              Talk to us{" "}
+              <span className="inline-block transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
+                →
+              </span>
             </a>
           </div>
         </div>

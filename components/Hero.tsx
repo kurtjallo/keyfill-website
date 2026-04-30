@@ -3,7 +3,7 @@ import { Stopwatch } from "./Stopwatch";
 export function Hero() {
   return (
     <section className="border-b border-hairline" aria-labelledby="hero-statement">
-      <div className="mx-auto max-w-[1280px] px-6 md:px-12 pt-[88px] pb-24">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12 pt-24 md:pt-[112px] pb-20 md:pb-32">
         <div className="grid grid-cols-1 min-[920px]:grid-cols-[58fr_42fr] gap-16 items-start">
 
           <div>
@@ -22,22 +22,22 @@ export function Hero() {
               </em>
             </h1>
 
-            <p className="text-[19px] leading-[1.5] text-ink mb-10 max-w-[520px] border-l-2 border-ink pl-[18px]">
+            <p className="text-[19px] leading-[1.5] text-ink mb-10 max-w-[520px] border-l border-ink pl-[18px]">
               Two filled OREA-form PDFs in your inbox in ninety seconds.
               Skyslope handles the signatures from there.
             </p>
 
             <div
-              className="font-mono text-[12.5px] leading-[1.7] text-muted py-4 px-[18px] bg-onion border border-hairline max-w-[540px] tracking-[-0.005em]"
+              className="font-mono text-[12.5px] leading-[1.7] text-muted py-4 px-[18px] bg-onion border border-hairline max-w-[540px]"
               aria-label="Process: voice to thirteen extracted fields to two filled forms emailed in one minute thirty-two seconds"
             >
               <span className="text-ink">voice</span>{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               13 fields extracted{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               <span className="text-ink">form 2229E</span> +{" "}
               <span className="text-ink">OREA 400</span>{" "}
-              <span className="text-accent mx-2" aria-hidden="true">→</span>
+              <span className="text-muted mx-2" aria-hidden="true">→</span>
               emailed in <span className="text-ink">1:32</span>
             </div>
           </div>
@@ -51,11 +51,7 @@ export function Hero() {
 
 function DealPacket() {
   return (
-    <div
-      className="relative min-h-[540px]"
-      aria-hidden="true"
-      role="presentation"
-    >
+    <div className="relative min-h-[540px]">
       <FormCard
         title="Residential Lease"
         formId="FORM 2229E"
@@ -115,6 +111,7 @@ function FormCard({
 }) {
   return (
     <article
+      aria-hidden="true"
       className="absolute w-[92%] bg-onion border border-sepia px-[22px] pt-6 pb-7"
       style={{
         top: `${offsetTop}px`,
