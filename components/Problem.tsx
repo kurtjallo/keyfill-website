@@ -7,7 +7,9 @@ export function Problem() {
             id="problem-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — The wedge
+            <span className="text-ink">01</span>
+            <span className="mx-2 text-hairline">/</span>
+            The wedge
           </div>
           <div className="max-w-[640px] space-y-5">
             <p className="text-[18px] leading-[1.65] text-ink">

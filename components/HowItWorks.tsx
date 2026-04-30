@@ -25,7 +25,9 @@ export function HowItWorks() {
             id="how-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — How it works
+            <span className="text-ink">02</span>
+            <span className="mx-2 text-hairline">/</span>
+            How it works
           </div>
           <h2 className="font-sans font-semibold text-[clamp(26px,3.2vw,36px)] leading-[1.15] tracking-[-0.02em] text-ink-deep max-w-[700px]">
             Three steps. The evening is yours.

@@ -9,7 +9,9 @@ export function CTA() {
             id="cta-label"
             className="font-mono text-[11px] text-muted uppercase tracking-[0.08em]"
           >
-            — Get involved
+            <span className="text-ink">05</span>
+            <span className="mx-2 text-hairline">/</span>
+            Get involved
           </div>
           <div className="max-w-[640px]">
             <h2 className="font-display italic text-accent text-[clamp(36px,4.5vw,52px)] leading-[1.1] tracking-[-0.015em] mb-6">
