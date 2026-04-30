@@ -22,9 +22,12 @@ export function CTA() {
             <EmailCapture />
             <a
               href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
-              className="inline-flex mt-6 font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="group inline-flex items-center mt-6 min-h-[44px] font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
-              Or talk to the founders →
+              Or talk to the founders{" "}
+              <span className="inline-block ml-1 transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
+                →
+              </span>
             </a>
           </div>
         </div>
