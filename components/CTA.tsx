@@ -22,15 +22,17 @@ export function CTA() {
               same form — we&apos;ll know which one you are.
             </p>
             <EmailCapture />
-            <a
-              href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
-              className="group inline-flex items-center mt-6 min-h-[44px] font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
-            >
-              Or talk to the founders{" "}
-              <span className="inline-block ml-1 transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
-                →
-              </span>
-            </a>
+            <div className="mt-8 pt-6 border-t border-hairline">
+              <a
+                href="mailto:hello@keyfill.app?subject=Talking%20to%20the%20Keyfill%20founders"
+                className="group inline-flex items-center min-h-[44px] font-mono text-[12px] uppercase tracking-[0.06em] text-muted hover:text-accent transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              >
+                Or talk to the founders{" "}
+                <span className="inline-block ml-1 transition-transform duration-150 ease-out group-hover:translate-x-[3px]">
+                  →
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
