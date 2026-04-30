@@ -45,7 +45,7 @@ export function EmailCapture() {
           placeholder="you@brokerage.com"
           aria-invalid={state === "error"}
           aria-describedby={state === "error" ? "email-error" : undefined}
-          className="flex-1 min-w-0 bg-transparent border-0 px-[14px] py-[14px] md:py-[11px] font-sans text-[14px] text-ink outline-none placeholder:text-muted"
+          className="flex-1 min-w-0 bg-transparent border-0 border-b-2 border-b-transparent focus:border-b-accent transition-colors duration-150 px-[14px] py-[12px] md:py-[9px] font-sans text-[14px] text-ink outline-none placeholder:text-muted"
         />
         <button
           type="submit"
