@@ -3,7 +3,7 @@ import { Stopwatch } from "./Stopwatch";
 export function Hero() {
   return (
     <section className="border-b border-hairline" aria-labelledby="hero-statement">
-      <div className="mx-auto max-w-[1280px] px-6 md:px-12 pt-[88px] pb-24">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12 pt-24 md:pt-[112px] pb-20 md:pb-32">
         <div className="grid grid-cols-1 min-[920px]:grid-cols-[58fr_42fr] gap-16 items-start">
 
           <div>

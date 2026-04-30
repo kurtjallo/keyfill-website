@@ -22,7 +22,7 @@ export function WhyItWorks() {
       className="border-b border-hairline bg-onion"
       aria-labelledby="why-label"
     >
-      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20 md:py-32">
         <div className="mb-12">
           <div
             id="why-label"

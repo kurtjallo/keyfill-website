@@ -3,7 +3,7 @@ import { EmailCapture } from "./EmailCapture";
 export function CTA() {
   return (
     <section className="border-b border-hairline" aria-labelledby="cta-label">
-      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12 py-20 md:py-32">
         <div className="grid grid-cols-1 min-[920px]:grid-cols-[180px_1fr] gap-8 min-[920px]:gap-16">
           <div
             id="cta-label"
